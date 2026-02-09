@@ -7,7 +7,7 @@ source.include_exts = py,png,jpg,kv,db
 version = 0.1
 
 # REQUISITOS ACTUALIZADOS: Añadimos pyobjus para que funcionen las alertas en iOS
-requirements = python3,kivy==2.2.1,kivymd==1.1.1,plyer,sqlite3,pyobjus
+requirements = python3,kivy==2.2.1,kivymd==1.1.1,plyer,pyobjus
 
 orientation = portrait
 
@@ -21,4 +21,5 @@ ios.codesign.allowed = false
 
 [buildozer]
 log_level = 2
+
 warn_on_root = 1
