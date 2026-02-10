@@ -1,4 +1,3 @@
-import sqlite3
 import os
 from datetime import datetime
 from kivy.lang import Builder
@@ -226,4 +225,5 @@ class NotasApp(MDApp):
         self.root.get_screen('create').ids.reminder_info.text = f"Programado: {self.fecha_final}"
 
 if __name__ == '__main__':
+
     NotasApp().run()
